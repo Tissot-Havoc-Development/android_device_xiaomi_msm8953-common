@@ -1,2 +1,6 @@
 # FM radio needs to set fm properties
 set_prop(system_app, fm_prop) 
+
+# Spectrum
+allow system_app spectrum_prop:property_service set;
+get_prop(system_app, spectrum_prop);
